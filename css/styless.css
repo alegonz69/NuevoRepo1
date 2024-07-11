@@ -1,0 +1,741 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Slab:ital@0;1&family=Playfair+Display:ital@0;1&display=swap');
+
+
+/* DISPOSITIVOS */
+
+@media screen and (max-width: 768px) {
+    
+    /* ENCABEZADO-HEADER */
+
+    header {
+        padding: 2vh;
+        background-image: url(/assets/images/Body/cieloargentino.jpg);
+        color: rgb(53, 10, 10);
+        font-style: normal;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+    
+    header .containerheader {
+        width: 70vh;
+        word-spacing: 1px;
+        margin-right: 15px;
+    }
+
+    header div h6  {
+        text-decoration: underline;
+    }
+
+    /* IMAGEN LOGO HEADER */
+
+    header .containerlogo {
+        width: 30vh;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    /* BARRA NAVEGACION */
+
+    .container-fluid a {
+      width: 30%;
+    }
+
+    .navbar-brand img {
+      width: 50%;
+    }
+
+    nav ul li a{
+        font-size: 50px;
+    }
+
+    nav ul li {
+        align-content: center;
+    }
+
+    /* BODY/MAIN */
+
+
+    main .sec-noticia .sec-noticia1 {
+      padding: 10px;
+    }
+
+    main .sec-noticia .sec-noticia1 article div img {
+      width: 100%;
+    }
+
+    main .sec-noticia .sec-noticia1 article h2 {
+      background-color: #473c3c;
+      color: #fff;
+      border-radius: 20px;
+    }
+
+    main .sec-noticia .sec-noticia2 {
+      padding: 10px;
+    }
+
+    main .sec-noticia .sec-noticia2 article div {
+      display: flex;
+      align-items: center;
+    }
+
+    main .sec-noticia .sec-noticia2 article div img {
+      width: 40%;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      border-radius: 20px;
+      /* height: 95%; */
+    }
+
+    .textcenter {
+      text-align: center;
+    }
+
+
+    .textnegrita {
+      font-weight: bold;
+    }
+
+    .subrayado-arriba {
+      text-decoration: overline;
+      background-color: #397267;
+      border-radius: 20px;
+    }
+  
+    .subrayado-abajo {
+      text-decoration: underline;
+      background-color: #397267;
+      border-radius: 20px;
+    }
+
+/* FOOTER/PIE DE PAGINA */
+
+    footer {
+        background-color: rgb(167, 184, 184);
+        padding: 10px;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        color: #000;
+    }
+   
+    footer .footer-logo {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    footer .footer-container .footer-logo img {
+        width: 50%;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #2b2525;
+    }
+    
+    footer .footer-container .footer-links ul {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    footer ul li {
+        font-size: 15px;
+        margin-top: 15px;
+        list-style: none;
+    }
+
+
+    footer .footer-links ul {
+        justify-content: space-between;
+    }
+
+    footer .footer-container .footer-contact {
+        font-size: 15px;
+    }
+    
+    
+
+    footer .social-icons ul li a img {
+        width: 70%;        
+    }
+
+    footer .social-icons ul {
+        display: flex;
+        width: 90%;
+        gap: 15px;
+    }
+
+    /* .......PAGINA DE GRUPOS...... */
+
+    .main-grupos {
+      background-color: #F4F4F5;
+    
+    }
+  
+  
+    main {
+      color: #191f1e;
+      text-align: center;
+      text-shadow: 1px 1px 1px #bdaeae, -1px -1px 1px #fff;
+    }
+    main h2 {
+      font-size: 35px;
+      font-family: sans-serif;
+      background-color: #161010;
+      padding: 15px;
+  
+    }
+
+    .container-grupos {
+      display: grid;
+      grid-template-areas: 
+      "grupoa" 
+      "grupob"
+      "grupoc"
+      "grupod";
+      gap: 5px;
+      padding: 3px;
+    }
+  
+    #container-a {
+      grid-area: grupoa;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+      border-radius: 20px;
+      background-color:#FFFFFF;
+      border-style: groove;
+      padding-bottom: 15px;
+
+    }
+  
+    #container-b {
+      grid-area: grupob;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+      border-radius: 20px;
+      background-color:#FFFFFF;
+      border-style: groove;
+    }
+  
+    #container-c {
+      grid-area: grupoc;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+      border-radius: 20px;
+      background-color:#FFFFFF;
+      border-style: groove;
+
+    }
+  
+    #container-d {
+      grid-area: grupod;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+      border-radius: 20px;
+      background-color:#FFFFFF;
+      border-style: groove;
+    }
+    main section .container-grupos table thead tr th {
+      color: #e23434 ;
+      padding: 8px;
+      
+    }
+
+    main section .container-grupos table tbody {
+  
+    }
+
+    main section .container-grupos table tbody td {
+      padding: 15px 0px;
+      border-top: 1px solid #8f7979;
+    }
+    
+    main section .container-grupos #container-a table thead tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-a table tbody tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-b table thead tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-b table tbody tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-c table thead tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-c table tbody tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-d table thead tr .column-th {
+      display: none;
+    }
+
+    main section .container-grupos #container-d table tbody tr .column-th {
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    main section .container-grupos table tbody tr td .flex-banderas {
+      display: flex;
+      gap: 10px;         
+    }
+  
+    main section .container-grupos table tbody tr td .flex-banderas h5 {
+      font-size: 16px;
+    }
+  
+    /* BANDERAS DE PAISES */
+  
+    main section .container-grupos table tbody tr td .flex-banderas div img{
+      width: 100%;
+      height: 100%;
+      border-radius: 100%;
+      /* height: 100%; */
+    }
+  
+    main section .container-grupos table tbody tr td .flex-banderas div {
+      width: 20%;
+    }
+}
+
+
+@media screen and (min-width: 769px)   { 
+        /* INDEX/HOME */
+
+    /* ENCABEZADO-HEADER */
+
+    header {
+    color: rgb(53, 10, 10); 
+    background:linear-gradient(#56857c, transparent,#C1DCD7 ) ;
+    background-size: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;  
+    }
+
+    /* IMAGEN LOGO HEADER */
+
+    header .containerheader {
+    width: 40%;
+    margin-right: 111px;
+    align-content: center;
+    }
+    
+    header .containerheader h6, header .containerheader h1,  header .containerheader h5 {
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    }
+
+    header .containerlogo {  
+    width: 12%;
+    align-content: center;
+    }
+      
+    header div img {
+    width:100%;
+    }
+
+/* BARRA NAVEGACION */
+  
+  .bg-color .container-fluid .navbar-menu {
+    justify-content: center;
+  }
+  
+  
+  .bg-color a {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+  }
+
+  .bg-color a:hover {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  
+  .bg-color {
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(transparent,#C1DCD7, transparent);
+  }
+
+ /* BODY/MAIN */
+
+ main .sec-noticia {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  background: linear-gradient(#C1DCD7, transparent);
+}
+
+main .sec-noticia .sec-noticia1 {
+  align-content: center;
+  box-shadow: 0 0 55px 0 #000;
+  width: 100%;
+}
+
+main .sec-noticia .sec-noticia1 article div img {
+  filter: drop-shadow(0 0 15px #000);
+  border-radius: 20px;
+  width:100%;
+}
+
+main .sec-noticia .sec-noticia1 article {
+  padding: 50px;
+}
+
+main .sec-noticia .sec-noticia2 {
+  box-shadow: 0 0 55px 0 #000;
+  width: 70%;
+}
+
+main .sec-noticia .sec-noticia2 article div h4 {
+  text-align: center;
+  align-content: center;
+}
+
+main .sec-noticia .sec-noticia2 article div {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+main .sec-noticia .sec-noticia2 article div img {
+  border-radius: 10px;
+  width: 50%;
+  filter: drop-shadow(0 0 15px #000);
+}
+
+/* main .sec-noticia .sec-noticia2 article div img:hover {
+  background-color: #000;
+} */
+
+main .grilla {
+  display: grid;
+  grid-template-areas: 
+  "imagen1 imagen2 imagen3";
+  gap: 20px;
+  padding: 50px;
+
+}
+
+#imagen1 {
+  grid-area: imagen1;
+  box-shadow: 0 0 55px 0 #000;
+}
+
+#imagen2 {
+  grid-area: imagen2;
+  box-shadow: 0 0 55px 0 #000;
+}
+
+#imagen3 {
+  grid-area: imagen3;
+  box-shadow: 0 0 55px 0 #000;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+
+.textnegrita {
+  font-weight: bold;
+}
+
+.subrayado-arriba {
+    text-decoration: overline;
+    background-color: #397267;
+    border-radius: 50px;
+}
+
+.subrayado-abajo {
+    text-decoration: underline;
+    background-color: #397267;
+    border-radius: 50px;
+}
+
+  
+  /* FOOTER/PIE DE PAGINA */
+  
+  footer {
+    background: linear-gradient(transparent,#C1DCD7);
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    color: rgb(36, 32, 28);
+  }
+  
+  footer .footer-container {
+    display: flex;
+  }
+
+
+  footer .footer-container .footer-logo {
+    width: 33%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ 
+  }
+  
+  footer .footer-container .footer-logo img {
+    width: 100%;
+  }
+  
+
+  footer .footer-container .footer-links {
+    width: 33%;
+    align-content: center;
+  }
+
+
+  footer .footer-container .footer-links ul li a {
+    text-decoration: none;
+    color: #1d1616;
+    font-size: 22px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  footer .footer-container .footer-links ul li {
+    list-style: none;
+  }
+
+  footer .footer-container .footer-links ul {
+    margin-right: 40px;
+  }
+
+  footer .footer-container .footer-contact {
+    width: 33%;
+    align-content: center;
+  }
+
+  footer .footer-container .footer-contact p {
+    font-size: 18px;
+  }
+
+  footer .social-icons ul {
+    height: 100%;
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  footer .social-icons ul li {
+    list-style: none;
+  }
+
+  footer .social-icons ul img {
+    width: 30%;
+  }
+
+  /* ............GRUPOS............. */
+
+  .main-grupos {
+    background:linear-gradient(#56857c, transparent,#C1DCD7 ) ;
+    padding-bottom: 100px;
+  }
+
+
+  main {
+    color: #191f1e;
+    text-align: center;
+    text-shadow: 1px 1px 1px #bdaeae, -1px -1px 1px #fff;
+  }
+  main h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    background-color: #161010;
+    padding: 15px;
+
+  }
+  
+  main section .container-grupos {
+    display: grid;
+    grid-template-areas: 
+    "grupoa grupob"
+    "grupoc grupod";
+    /* justify-content: space-around; */
+    padding: 100px 20px;
+    gap: 10px;
+  }
+
+  #container-a {
+    grid-area: grupoa;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    border-radius: 20px;
+    background-color:#cccaca;
+    border-style: groove;
+  }
+
+  #container-b {
+    grid-area: grupob;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    border-radius: 20px;
+    background-color:#cccaca;
+    border-style: groove;
+  }
+
+  #container-c {
+    grid-area: grupoc;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    border-radius: 20px;
+    background-color:#cccaca;
+    border-style: groove;
+  }
+
+  #container-d {
+    grid-area: grupod;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    border-radius: 20px;
+    background-color:#cccaca;
+    border-style: groove;
+  }
+
+  main section .container-grupos table thead tr th {
+    color: #e23434 ;
+    padding: 15px;
+    
+  }
+
+  main section .container-grupos table tbody tr td .flex-banderas {
+    display: flex;
+    width: 100%;
+    gap: 5px;   
+    
+  }
+
+  main section .container-grupos table tbody tr td .flex-banderas h5 {
+    
+    font-size: 16px;
+  }
+
+  /* BANDERAS DE PAISES */
+
+  main section .container-grupos table tbody tr td .flex-banderas div img{
+    width: 100%;
+    border-radius: 100%;
+    /* height: 100%; */
+  }
+
+  main section .container-grupos table tbody tr td .flex-banderas div {
+    width: 20%;
+  }
+
+  main section .container-grupos table tbody tr td  {
+    
+  }
+
+  /* TABLA */
+
+  main section .container-grupos div h3 {
+    margin: 15px;
+  }
+
+  main section .container-grupos table {
+    margin-bottom: 10px;
+  
+  } 
+   
+  /* NO SE COMO HACER PARA QUE SE CENTRE EL TEXTO */
+
+  main section .container-grupos table tbody tr td {
+    padding: 10px;
+  }
+
+  main section .container-grupos table tbody tr {
+    border-top: 1px solid #7a7272;
+  } 
+
+  /* ............CONTACTO............. */
+
+
+  .main-contacto {
+    background-color: #191f1e;
+  }
+
+  .navbar-menu {
+    margin-right: 60px;
+  }
+
+  .navbar-brand {
+    width: 4%;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  .main-contacto section {
+    /* margin: 50px 0px; */
+    padding: 50px;
+  }
+  
+  .main-contacto section form {
+    text-align: center;
+    box-shadow: 0 0 35px #0006;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .main-contacto section form .form-input {
+    background-color: transparent;
+    box-shadow: 0 0 35px #0006;
+  }
+
+  .main-contacto section form .form-input input {
+    border-left:3px solid #397267;
+    width: 97%;
+    margin: 15px;
+    background: transparent;
+    border: 1px solid #cccaca;
+    padding: 6px 12px;
+    color: #26c7a9;
+  }
+
+  .main-contacto section form h2 {
+    text-align: center;
+    color: #C1DCD7;
+    margin-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .form-input {
+    background-color: transparent;
+    padding: 12px;
+    box-shadow: 0 0 35px #0006;
+   
+  }
+
+
+
+
+}
