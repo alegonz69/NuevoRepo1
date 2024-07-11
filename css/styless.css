@@ -14,8 +14,8 @@
     /* ENCABEZADO-HEADER */
 
     header {
+        background:linear-gradient(#56857c, transparent,#C1DCD7 ) ;
         padding: 2vh;
-        background-image: url(/assets/images/Body/cieloargentino.jpg);
         color: rgb(53, 10, 10);
         font-style: normal;
         background-size: cover;
@@ -62,11 +62,35 @@
         align-content: center;
     }
 
-    /* BODY/MAIN */
+    .bg-color .container-fluid .navbar-menu {
+      justify-content: center;
+    }
+    
+    
+    .bg-color a {
+      font-size: 17px;
+      color: rgb(0, 0, 0);
+      display: flex;
+      text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
+    }
+  
+    .bg-color a:hover {
+      background-color: #fff;
+      border-radius: 20px;
+    }
+    
+    .bg-color {
+      font-style: italic;
+      font-weight: bold;
+      background: linear-gradient(transparent,#C1DCD7, transparent);
+    }
 
+    /* BODY/MAIN */
 
     main .sec-noticia .sec-noticia1 {
       padding: 10px;
+      background: linear-gradient(#C1DCD7, transparent, #C1DCD7);
+      filter: drop-shadow(0 0 15px #000);
     }
 
     main .sec-noticia .sec-noticia1 article div img {
@@ -74,13 +98,15 @@
     }
 
     main .sec-noticia .sec-noticia1 article h2 {
-      background-color: #473c3c;
-      color: #fff;
-      border-radius: 20px;
+      background-color: transparent;
+      color: transparent;
+      font-size: 25px;
+      filter: drop-shadow(0 0 15px #000);
     }
 
     main .sec-noticia .sec-noticia2 {
       padding: 10px;
+      background: linear-gradient(#C1DCD7, transparent, #C1DCD7);
     }
 
     main .sec-noticia .sec-noticia2 article div {
