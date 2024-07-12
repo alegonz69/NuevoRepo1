@@ -70,13 +70,13 @@
     .bg-color a {
       font-size: 17px;
       color: rgb(0, 0, 0);
-      display: flex;
       text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
     }
   
     .bg-color a:hover {
       background-color: #fff;
       border-radius: 20px;
+      width: 20%;
     }
     
     .bg-color {
@@ -205,8 +205,7 @@
     /* .......PAGINA DE GRUPOS...... */
 
     .main-grupos {
-      background-color: #F4F4F5;
-    
+      background:linear-gradient(#56857c, transparent,#56857c ) ;
     }
   
   
@@ -272,10 +271,6 @@
       color: #e23434 ;
       padding: 8px;
       
-    }
-
-    main section .container-grupos table tbody {
-  
     }
 
     main section .container-grupos table tbody td {
@@ -360,7 +355,7 @@
       max-width: 750px;
       margin: auto;
     }
-  
+
     .main-contacto section form .form-input {
       background-color: transparent;
       box-shadow: 0 0 35px #0006;
@@ -368,28 +363,31 @@
   
     .main-contacto section form .form-input input {
       border-left:3px solid #397267;
-      width: 97%;
-      margin: 15px;
+      width: 80%;
+      margin: 5px;
       background: transparent;
       border: 1px solid #cccaca;
-      padding: 6px 12px;
+      padding: 6px 8px;
       color: #26c7a9;
     }
   
     .main-contacto section form h2 {
       text-align: center;
       color: #C1DCD7;
-      margin-bottom: 15px;
       padding-top: 15px;
+      font-size: 23px;
     }
   
     .form-input {
       background-color: transparent;
       padding: 12px;
       box-shadow: 0 0 35px #0006;
-     
     }
-  
+    
+    .main-contacto section form div textarea {
+      background: transparent;
+      border: 1px solid #cccaca;
+    }
 
 
 
@@ -727,10 +725,6 @@ main .grilla {
 
   main section .container-grupos table tbody tr td .flex-banderas div {
     width: 20%;
-  }
-
-  main section .container-grupos table tbody tr td  {
- 
   }
 
   /* TABLA */
